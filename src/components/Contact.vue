@@ -50,9 +50,9 @@
 </template>
 
 <script>
+import 'bulma/css/bulma.min.css'
 import navbar from './Navbar.vue'
 import heroBanner from './HeroBanner.vue'
-import 'bulma/css/bulma.min.css'
 
 export default {
   name: 'App',

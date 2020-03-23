@@ -76,7 +76,6 @@
 
 <script>
 import $ from 'jquery/dist/jquery.slim'
-import 'bulma/css/bulma.min.css'
 
 export default {
   name: 'Navbar',

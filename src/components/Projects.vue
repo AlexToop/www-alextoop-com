@@ -24,6 +24,7 @@
 </template>
 
 <script>
+import 'bulma/css/bulma.min.css'
 import navbar from './Navbar.vue'
 import project from './Project.vue'
 import data from '../assets/js/data.model'
@@ -55,7 +56,7 @@ export default {
           },
           {
             name: 'Contact',
-            class: 'is-active',
+            class: '',
             href: '/contact/',
             icon: 'fa-info-circle',
             iconColor: 'has-text-dark'
