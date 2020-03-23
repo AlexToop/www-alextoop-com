@@ -4,15 +4,15 @@
         <article class="media">
           <div class="media-left">
             <figure class="image is-64x64">
-              <img src="https://bulma.io/images/placeholders/128x128.png" alt="Image">
+              <img :src="imgUri" alt="Image">
             </figure>
           </div>
           <div class="media-content">
             <div class="content">
               <p>
-                <strong>John Smith</strong> <small>@johnsmith</small> <small>31m</small>
+                <strong>{{title}}</strong> <small>date:</small> <small>{{date}}</small>
                 <br>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean efficitur sit amet massa fringilla egestas. Nullam condimentum luctus turpis.
+                {{body}}
               </p>
             </div>
             <nav class="level is-mobile">
@@ -37,12 +37,14 @@
           </div>
         </article>
       </div>
+      </br>
   </div>
 </template>
 
 <script>
 export default {
-  name: 'Project'
+  name: 'Project',
+  props: ['title', 'date', 'body', 'imgUri']
 }
 </script>
 

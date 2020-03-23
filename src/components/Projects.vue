@@ -13,7 +13,7 @@
                 I'd really love people to check out <a href="https://reminds.alextoop.com" target="_blank">https://reminds.alextoop.com</a> - So please do!
               </div>
               <h2>Projects</h2>
-              <project />
+              <project v-for="project in data" :title="project.title" :date="project.date" :body="project.body" :imgUri="project.imgUri" />
             </div>
           </div>
           <div class="column" />
@@ -26,6 +26,7 @@
 <script>
 import navbar from './Navbar.vue'
 import project from './Project.vue'
+import data from '../assets/js/data.model'
 
 export default {
   name: 'App',
@@ -35,6 +36,7 @@ export default {
   },
   data: function () {
     return {
+      data: data.projects,
       navbarContents: {
         links: [
           {
