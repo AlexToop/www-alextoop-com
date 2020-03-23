@@ -1,23 +1,23 @@
 const projects = [
     {
-        title: 'Fitbit Versa - Digital Lines Clock Face',
+        title: 'Fitbit Versa - Digital Cascade Clock Face',
         date: '27/07/2019',
         body: 'A digital watch face designed with inspirations from multiple modern digital watch faces. Utilises the Fitbit SDK and supports Versa devices. Current weather support included.',
-        imgUri: '/img/logo.png',
-        link: 'https://github.com/AlexToop/Fitbit-Digital-Lines'
+        imgUri: '/img/Fitbit-Digital-Cascade.png',
+        link: 'https://github.com/AlexToop/Fitbit-Digital-Cascade'
     },
     {
         title: 'Fitbit Versa - Analogue Hours Clock Face',
         date: '10/06/2019',
         body: 'An analogue watch face designed with inspirations from multiple digitalized analogue watch faces. Utilises the Fitbit SDK and supports Versa devices. Support for current weather planned for a future release.',
-        imgUri: '/img/logo.png',
+        imgUri: '/img/Fitbit-Analogue-Hours.png',
         link: 'https://github.com/AlexToop/Fitbit-Analogue-Hours'
     },
     {
         title: 'Angular 5 Website Development',
         date: '04/04/2018',
         body: 'This website has been developed using Angular 5 and Bootstrap 4. It is hosted on AWS EC2 and is intended as a way to practise my Angular skills outside of work. The code will be posted on GitHub as a public project should you wish to have a look after I\'ve finished my current major revamp of this site.',
-        imgUri: '/img/logo.png',
+        imgUri: '/img/Angular5Website.png',
         link: 'https://github.com/AlexToop/alexandertoop-angular-com'
     },
     {
