@@ -7,13 +7,42 @@
         <div class="columns">
           <div class="column" />
           <div class="column is-three-quarters">
-            <p class="title">
-              Example Contact page.
-            </p>
-            <p class="subtitle">
-              Example text.
-            </p>
-            <p><b>More </b>example text body.</p>
+            <div class="columns">
+              <div class="column">
+                <div class="content">
+                <h2>
+                    Note
+                </h2>
+                <p>
+                    I prefer to be contacted through <a href="https://www.linkedin.com/in/alexandertoop/" target="_blank">LinkedIn</a> if possible, however, email contact is also fine.
+                </p>
+
+                <h2>Email</h2>
+                <p>
+                    <a href="mailto:alextoop@protonmail.com?subject=Enquiry">
+                    alextoop@protonmail.com</a>
+                </p>
+
+                <h2>GitHub</h2>
+                <p>
+                    <a href="https://GitHub.com/AlexToop" target="_blank">github.com/AlexToop</a>
+                </p>
+                </div>
+              </div>
+              <div class="column">
+                <div class="content">
+                <h2>
+                    LinkedIn
+                </h2>
+
+                <div class="LI-profile-badge linkedin-widget" data-version="v1" data-size="large" data-locale="en_US" data-type="vertical" data-theme="light" data-vanity="alexandertoop">
+                  <a class="LI-simple-link" href='https://uk.linkedin.com/in/alexandertoop?trk=profile-badge'>
+                    Alexander Toop
+                  </a>
+                </div>
+                </div>
+              </div>
+            </div>
           </div>
           <div class="column" />
         </div>
@@ -44,14 +73,14 @@ export default {
           },
           {
             name: 'About',
-            class: 'is-active',
+            class: '',
             href: '/about/',
             icon: 'fa-info-circle',
             iconColor: 'has-text-dark'
           },
           {
             name: "Contact",
-            class: "",
+            class: "is-active",
             href: "/contact/",
             icon: "fa-info-circle",
             iconColor: "has-text-dark"
@@ -59,10 +88,10 @@ export default {
         ],
         buttons: [
           {
-            text: 'alextoop.com',
-            class: 'is-info',
-            href: 'https://www.alextoop.com',
-            isLogout: 'false'
+            text: "NEW: Reminds Project",
+            class: "is-info",
+            href: "https://reminds.alextoop.com",
+            isLogout: "false"
           }
         ]
       }
