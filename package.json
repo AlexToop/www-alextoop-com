@@ -6,12 +6,20 @@
   "scripts": {
     "clean": "rm -rf build",
     "start": "npm run clean && npm run build && NODE_ENV=development webpack-dev-server --hot --open",
-    "build": "npm run clean && NODE_ENV=production webpack --config webpack.config.js"
+    "build": "npm run clean && NODE_ENV=production webpack --config webpack.config.js",
+    "lint": "eslint --ignore-path .gitignore --ext js,vue --fix ."
   },
   "main": "src/index.html",
   "devDependencies": {
     "copy-webpack-plugin": "^5.1.1",
     "css-loader": "^3.4.2",
+    "eslint": "^6.8.0",
+    "eslint-config-standard": "^14.1.1",
+    "eslint-plugin-import": "^2.20.1",
+    "eslint-plugin-node": "^11.0.0",
+    "eslint-plugin-promise": "^4.2.1",
+    "eslint-plugin-standard": "^4.0.1",
+    "eslint-plugin-vue": "^6.2.2",
     "vue-loader": "^15.9.1",
     "vue-style-loader": "^4.1.2",
     "vue-template-compiler": "^2.6.11",

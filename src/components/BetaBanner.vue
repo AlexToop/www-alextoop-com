@@ -3,10 +3,10 @@
     <div class="hero-body">
       <div class="container">
         <h1 class="title">
-          Welcome to a simple Vue Webpack multi-page website.
+          Alexander John Toop BEng
         </h1>
         <h2 class="subtitle">
-          Example.
+          Software Engineer currently working across BBC TV iPlayer and Sounds
         </h2>
       </div>
     </div>

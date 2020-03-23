@@ -11,7 +11,7 @@
             class="navbar-item"
             href="/"
           >
-            <p><b>Example App</b></p>
+            <p><b>Alex Toop</b></p>
           </a>
 
           <a
