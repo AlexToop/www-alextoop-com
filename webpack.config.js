@@ -5,7 +5,8 @@ const path = require('path')
 module.exports = {
   entry: {
     index: './src/main.js',
-    about: './src/about/main.js'
+    about: './src/about/main.js',
+    contact: './src/contact/main.js'
   },
   mode: process.env.NODE_ENV,
   module: {
@@ -25,6 +26,7 @@ module.exports = {
     new CopyPlugin([
       { from: 'src/index.html', to: '../index.html' },
       { from: 'src/about/index.html', to: '../about' },
+      { from: 'src/contact/index.html', to: '../contact' },
       { from: 'src/assets/img/*', to: '../img/', flatten: true },
       { from: 'src/assets/favicon/*', to: '../', flatten: true }
     ])
