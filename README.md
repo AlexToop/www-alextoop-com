@@ -1,20 +1,7 @@
-# vue-webpack-multi-page-template
-A template to make setting up simple Vue Webpack projects easier when using multiple entry points.
+# www-alextoop-com
+A basic portfolio website.
 
-## Optional: Add linting
-
-When initializing eslint I would strongly recommend adding Vue support. (The example code included should also have JavaScript modules support.)
-
+## AWS configure
 ```
-npm install eslint --save-dev
-```
-
-```
-npx eslint --init
-```
-
-Add the following to your package.json
-
-```
-"lint": "eslint --ignore-path .gitignore --ext js,vue --fix ."
+run mfa first
 ```

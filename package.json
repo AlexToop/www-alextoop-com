@@ -7,7 +7,10 @@
     "clean": "rm -rf build",
     "start": "npm run clean && npm run build && NODE_ENV=development webpack-dev-server --hot --open",
     "build": "npm run clean && NODE_ENV=production webpack --config webpack.config.js",
-    "lint": "eslint --ignore-path .gitignore --ext js,vue --fix ."
+    "lint": "eslint --ignore-path .gitignore --ext js,vue --fix .",
+    "predeploy": "npm run build && aws s3 rm s3://www.alextoop.com/ --recursive",
+    "deploy": "aws s3 sync ./build/ s3://www.alextoop.com/ --profile defaultMFA",
+    "postdeploy": "aws cloudfront create-invalidation --distribution-id E3D1H6J3TO2QO1 --paths \"/*\""
   },
   "main": "src/index.html",
   "devDependencies": {
