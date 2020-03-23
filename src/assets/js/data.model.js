@@ -41,6 +41,13 @@ const projects = [
         imgUri: '/img/logo.png',
         link: 'https://github.com/AlexToop/arduino_clock'
     },
+    {
+        title: 'Personal Website Development',
+        date: '17/11/2016',
+        body: `Having been taught about websites in a first year module I decided I would like to make my own website. I could have used solutions such as WordPress to make the process easier, however I chose to write the website from scratch to get a better feel for HTML and CSS. Whilst creating the website I decided to focus on simplicity and functionality. A design concept I personally adore.`,
+        imgUri: '/img/logo.png',
+        link: 'https://github.com/AlexToop/alextoop.github.io'
+    },
 ]
 
 module.exports = {
