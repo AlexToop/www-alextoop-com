@@ -51,7 +51,7 @@
 
 <script>
 import navbar from './Navbar.vue'
-import heroBanner from "./HeroBanner.vue";
+import heroBanner from './HeroBanner.vue'
 import 'bulma/css/bulma.min.css'
 
 export default {
@@ -79,19 +79,19 @@ export default {
             iconColor: 'has-text-dark'
           },
           {
-            name: "Contact",
-            class: "is-active",
-            href: "/contact/",
-            icon: "fa-info-circle",
-            iconColor: "has-text-dark"
+            name: 'Contact',
+            class: 'is-active',
+            href: '/contact/',
+            icon: 'fa-info-circle',
+            iconColor: 'has-text-dark'
           }
         ],
         buttons: [
           {
-            text: "NEW: Reminds Project",
-            class: "is-info",
-            href: "https://reminds.alextoop.com",
-            isLogout: "false"
+            text: 'NEW: Reminds Project',
+            class: 'is-info',
+            href: 'https://reminds.alextoop.com',
+            isLogout: 'false'
           }
         ]
       }

@@ -32,7 +32,7 @@ export default {
   name: 'App',
   components: {
     'nav-bar': navbar,
-    'project': project
+    project: project
   },
   data: function () {
     return {
@@ -54,19 +54,19 @@ export default {
             iconColor: 'has-text-dark'
           },
           {
-            name: "Contact",
-            class: "is-active",
-            href: "/contact/",
-            icon: "fa-info-circle",
-            iconColor: "has-text-dark"
+            name: 'Contact',
+            class: 'is-active',
+            href: '/contact/',
+            icon: 'fa-info-circle',
+            iconColor: 'has-text-dark'
           }
         ],
         buttons: [
           {
-            text: "NEW: Reminds Project",
-            class: "is-info",
-            href: "https://reminds.alextoop.com",
-            isLogout: "false"
+            text: 'NEW: Reminds Project',
+            class: 'is-info',
+            href: 'https://reminds.alextoop.com',
+            isLogout: 'false'
           }
         ]
       }

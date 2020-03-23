@@ -5,8 +5,9 @@
       :img-url="imgUrl"
     />
 
-    <hero-banner :title="'Alexander John Toop BEng'" :subtitle="'Software Engineer currently working across BBC TV iPlayer and Sounds'"/>
+        <hero-banner :title="'Alexander John Toop BEng'" :subtitle="'Software Engineer currently working across BBC TV iPlayer and Sounds'"/>
 
+    <section class="section">
       <div class="container has-padding-top">
           <div class="columns">
               <div class="column"></div>
@@ -59,30 +60,30 @@
               <div class="column"></div>
           </div>
       </div>
-
+  </section>
   </div>
 </template>
 
 <script>
-import navbar from "./Navbar.vue";
-import heroBanner from "./HeroBanner.vue";
+import navbar from './Navbar.vue'
+import heroBanner from './HeroBanner.vue'
 
 export default {
-  name: "App",
+  name: 'App',
   components: {
-    "nav-bar": navbar,
-    "hero-banner": heroBanner
+    'nav-bar': navbar,
+    'hero-banner': heroBanner
   },
-  data: function() {
+  data: function () {
     return {
       navbarContents: {
         links: [
           {
-            name: "Home",
-            class: "is-active",
-            href: "/",
-            icon: "fa-home",
-            iconColor: "has-text-primary"
+            name: 'Home',
+            class: 'is-active',
+            href: '/',
+            icon: 'fa-home',
+            iconColor: 'has-text-primary'
           },
           {
             name: 'Projects',
@@ -92,30 +93,30 @@ export default {
             iconColor: 'has-text-dark'
           },
           {
-            name: "Contact",
-            class: "",
-            href: "/contact/",
-            icon: "fa-info-circle",
-            iconColor: "has-text-dark"
+            name: 'Contact',
+            class: '',
+            href: '/contact/',
+            icon: 'fa-info-circle',
+            iconColor: 'has-text-dark'
           }
         ],
         buttons: [
           {
-            text: "NEW: Reminds Project",
-            class: "is-info",
-            href: "https://reminds.alextoop.com",
-            isLogout: "false"
+            text: 'NEW: Reminds Project',
+            class: 'is-info',
+            href: 'https://reminds.alextoop.com',
+            isLogout: 'false'
           }
         ]
       }
-    };
+    }
   },
-  beforeMount: function() {},
-  mounted: function() {
-    this.$nextTick(function() {});
+  beforeMount: function () {},
+  mounted: function () {
+    this.$nextTick(function () {})
   },
   methods: {}
-};
+}
 </script>
 
 <style>
