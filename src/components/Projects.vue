@@ -73,7 +73,7 @@ export default {
           },
           {
             name: 'Projects',
-            class: '',
+            class: 'is-active',
             href: '/projects/',
             icon: 'fa-info-circle',
             iconColor: 'has-text-dark'

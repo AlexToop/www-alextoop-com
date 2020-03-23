@@ -85,11 +85,11 @@ export default {
             iconColor: "has-text-primary"
           },
           {
-            name: "About",
-            class: "",
-            href: "/about/",
-            icon: "fa-info-circle",
-            iconColor: "has-text-dark"
+            name: 'Projects',
+            class: '',
+            href: '/projects/',
+            icon: 'fa-info-circle',
+            iconColor: 'has-text-dark'
           },
           {
             name: "Contact",
