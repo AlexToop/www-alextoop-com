@@ -11,7 +11,13 @@
             class="navbar-item"
             href="/"
           >
-            <p><b>Alex Toop</b></p>
+          <div class="image is-32x32">
+            <img src="/img/logo.png" class="is-rounded" alt="Reminds, a place to let tech do the remembering!">
+          </div>
+            <!-- <span class="icon is-large has-text-danger">
+                <img src="/img/logo.png" class="is-rounded" alt="Reminds, a place to let tech do the remembering!">
+            </span> -->
+            <p class="has-padding-left"><b>Alex Toop</b></p>
           </a>
 
           <a
@@ -48,6 +54,7 @@
                 <a
                   v-for="button in navbarContents.buttons"
                   class="button"
+                  target="_blank"
                   :class="button.class"
                   :href="button.href"
                 ><strong>{{ button.text }}</strong></a>
@@ -114,5 +121,9 @@ a.navbar-item > .icon {
 
 .button {
   margin: auto 0;
+}
+
+.has-padding-left {
+  padding-left: 0.7rem;
 }
 </style>
