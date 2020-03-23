@@ -5,7 +5,7 @@
       :img-url="imgUrl"
     />
 
-    <beta-banner />
+    <hero-banner :title="'Alexander John Toop BEng'" :subtitle="'Software Engineer currently working across BBC TV iPlayer and Sounds'"/>
 
       <div class="container has-padding-top">
           <div class="columns">
@@ -65,13 +65,13 @@
 
 <script>
 import navbar from "./Navbar.vue";
-import betaBanner from "./BetaBanner.vue";
+import heroBanner from "./HeroBanner.vue";
 
 export default {
   name: "App",
   components: {
     "nav-bar": navbar,
-    "beta-banner": betaBanner
+    "hero-banner": heroBanner
   },
   data: function() {
     return {

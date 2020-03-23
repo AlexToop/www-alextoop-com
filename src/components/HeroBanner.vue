@@ -3,10 +3,10 @@
     <div class="hero-body">
       <div class="container">
         <h1 class="title">
-          Alexander John Toop BEng
+          {{title}}
         </h1>
         <h2 class="subtitle">
-          Software Engineer currently working across BBC TV iPlayer and Sounds
+          {{subtitle}}
         </h2>
       </div>
     </div>
@@ -17,7 +17,8 @@
 import 'bulma/css/bulma.min.css'
 
 export default {
-  name: 'BetaBanner'
+  name: 'HeroBanner',
+  props: ['title', 'subtitle']
 }
 </script>
 

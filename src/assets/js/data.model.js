@@ -38,14 +38,14 @@ const projects = [
         title: 'Arduino Hardware and Programming: Making a clock',
         date: '21/01/2016',
         body: `Having been introduced to Arduinos during the first year of my Software engineering degree at Aberystwyth University I decided I really wanted to try and pursue different projects with my Arduino. Therefore after finding and purchasing a hardware package for the Arduino I decided to create my own clock using the LCD screen provided and a serial clock circuit.`,
-        imgUri: '/img/logo.png',
+        imgUri: '/img/Arduino-Uno.jpg',
         link: 'https://github.com/AlexToop/arduino_clock'
     },
     {
         title: 'Personal Website Development',
         date: '17/11/2016',
         body: `Having been taught about websites in a first year module I decided I would like to make my own website. I could have used solutions such as WordPress to make the process easier, however I chose to write the website from scratch to get a better feel for HTML and CSS. Whilst creating the website I decided to focus on simplicity and functionality. A design concept I personally adore.`,
-        imgUri: '/img/logo.png',
+        imgUri: '/img/First-Website.png',
         link: 'https://github.com/AlexToop/alextoop.github.io'
     },
 ]

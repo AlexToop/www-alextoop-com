@@ -7,15 +7,13 @@
         <div class="columns">
           <div class="column" />
           <div class="column is-three-quarters">
+            <div class="notification is-info">
+              <!-- <button class="delete"></button> -->
+              I prefer to be contacted through <a href="https://www.linkedin.com/in/alexandertoop/" target="_blank">LinkedIn</a> if possible, however, if not possible, I can be contacted through email.
+            </div>
             <div class="columns">
               <div class="column">
                 <div class="content">
-                <h2>
-                    Note
-                </h2>
-                <p>
-                    I prefer to be contacted through <a href="https://www.linkedin.com/in/alexandertoop/" target="_blank">LinkedIn</a> if possible, however, email contact is also fine.
-                </p>
 
                 <h2>Email</h2>
                 <p>
@@ -36,7 +34,7 @@
                 </h2>
 
                 <div class="LI-profile-badge linkedin-widget" data-version="v1" data-size="large" data-locale="en_US" data-type="vertical" data-theme="light" data-vanity="alexandertoop">
-                  <a class="LI-simple-link" href='https://uk.linkedin.com/in/alexandertoop?trk=profile-badge'>
+                  <a class="LI-simple-link" href='https://uk.linkedin.com/in/alexandertoop?trk=profile-badge' target="_none">
                     Alexander Toop
                   </a>
                 </div>
@@ -53,12 +51,14 @@
 
 <script>
 import navbar from './Navbar.vue'
+import heroBanner from "./HeroBanner.vue";
 import 'bulma/css/bulma.min.css'
 
 export default {
   name: 'App',
   components: {
-    'nav-bar': navbar
+    'nav-bar': navbar,
+    'hero-banner': heroBanner
   },
   data: function () {
     return {
