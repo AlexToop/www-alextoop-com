@@ -1,5 +1,19 @@
 const projects = [
   {
+    title: 'AWS MFA CLI Configure (NPM installation support)',
+    date: '07/02/2020',
+    body: 'AWS access when utilising multi-factor authentication is quite painful when using AWS CLI, this means that quick updates to a AWS service are hindered by a repetitive action of fetching temporary credentials and appending them to your CLI credentials file. This tool automates the process for you.',
+    imgUri: '/img/aws-mfa-cli-configure.png',
+    link: 'https://github.com/AlexToop/aws-mfa-cli-configure'
+  },
+  {
+    title: 'Fitbit Versa - Digital Bold Clock Face',
+    date: '16/01/2020',
+    body: 'Developed in one evening. I wanted a digital clock face that supported business users with the majority of the time not obscured by sleeves. Support for weather and general stats were added, in a sleek and minimal approach.',
+    imgUri: '/img/fitbit-digital-bold.png',
+    link: 'https://github.com/AlexToop/fitbit-digital-bold/'
+  },
+  {
     title: 'Fitbit Versa - Digital Cascade Clock Face',
     date: '27/07/2019',
     body: 'A digital watch face designed with inspirations from multiple modern digital watch faces. Utilises the Fitbit SDK and supports Versa devices. Current weather support included.',
