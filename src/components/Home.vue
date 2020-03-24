@@ -15,13 +15,15 @@
                 <div class="columns">
                   <div class="column">
                     <div class="content">
-                      <h2>Me</h2>
+                      <h2>Extract</h2>
                       <p>
-                          Studied at Aberystwyth University Software Engineering BEng. First Class Honours.
-                      </p>
-                      <p>
-                          Developed Java server back-ends and Angular front-ends for intelligent
-                          pre-sales systems in prior BT employment.
+                          Junior Software Engineer working in BBC iPlayer and Sounds team Partner Experiance. Working to automate the testing of new and existing connected TV devices. 
+                          </br>
+                          </br>
+                          First Class Honours Software Engineering BEng.
+                          </br>
+                          </br>
+                          Previous employment in BT's 'bt.com' personalised offers team developing an intelligent pre-sales system. Developed a Java backend alongside an Angular website interface for existing customers.
                       </p>
 
                       <h2>GitHub</h2>
@@ -30,18 +32,20 @@
                   </div>
                   <div class="column">
                     <div class="content">
-                      <h2>Development</h2>
+                      <h2>Experiance</h2>
                       <ul>
-                          <li>Commercial, Java and JavaScript development and deployment.</li>
-                          <li>Commercial, JUnit, Jasmine and Angular framework use.</li>
-                          <li>Personal, Fitbit JavaScript and node.js development.</li>
+                          <li>Commercial, JavaScript and Java development and deployment.</li>
+                          <li>Commercial, AWS Serverless DevOps using infrastructure as code.</li>
+                          <li>Commercial, development testing with: JUnit, Jasmine, Puppeteer, Sinon, Mocha, Chai and Vue Test Utils.</li>
+                          <li>Personal, Fitbit development using JavaScript, Android App development using Java (with Espresso and general JUnit testing.)</li>
                       </ul>
 
                       <h2>History</h2>
                       <ul>
                           <li>Achieved grades BBBD in Computing, Mathematics, General Studies and Physics at A-Level.</li>
-                          <li>Software Engineering Bachelors Degree, Aberystwyth University. [Pending]</li>
-                          <li>BT TSO Software Development involving Java and Angular.</li>
+                          <li>First Class Honours Software Engineering BEng at Aberystwyth University.</li>
+                          <li>BT TSO (Technology, Services and Operations) Software Development. Java and Angular.</li>
+                          <li>BBC iPlayer and Sounds connected TV automated testing tool development. JavaScript, AWS Serverless DevOps.</li>
                       </ul>
 
                       <h2>Hobbies</h2>
