@@ -17,7 +17,7 @@
                     <div class="content">
                       <h2>Extract</h2>
                       <p>
-                          Junior Software Engineer working in BBC iPlayer and Sounds team Partner Experiance. Working to automate the testing of new and existing connected TV devices. 
+                          Junior Software Engineer working in BBC iPlayer and Sounds team Partner Experience. Working to automate the testing of new and existing connected TV devices. 
                           </br>
                           </br>
                           First Class Honours Software Engineering BEng.
@@ -32,7 +32,7 @@
                   </div>
                   <div class="column">
                     <div class="content">
-                      <h2>Experiance</h2>
+                      <h2>Experience</h2>
                       <ul>
                           <li>Commercial, JavaScript and Java development and deployment.</li>
                           <li>Commercial, AWS Serverless DevOps using infrastructure as code.</li>
