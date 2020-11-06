@@ -30,3 +30,5 @@ npx cdk destroy
 ```
 
 NOTE: This will also add a webhook to the GitHub repo (accessible in the repo settings) that will NOT be cleared by cdk destroy.
+
+NOTE2: If you've not got the domain registered in AWS, you WILL have to verify domain ownership in the console.

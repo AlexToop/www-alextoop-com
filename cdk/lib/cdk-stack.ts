@@ -18,8 +18,8 @@ export class CdkStack extends cdk.Stack {
     
     const masterBranch = amplifyApp.addBranch("master");
 
-    // const domain = amplifyApp.addDomain('example.com');
-    // domain.mapRoot(masterBranch); // map master branch to domain root
+    const domain = amplifyApp.addDomain('wwwcdk.alextoop.com');
+    domain.mapRoot(masterBranch);
     // domain.mapSubDomain(masterBranch, 'www');
   }
 }
