@@ -5,3 +5,9 @@ A basic portfolio website.
 ```
 run mfa first
 ```
+
+## New 
+
+Require 
+node 
+npm
