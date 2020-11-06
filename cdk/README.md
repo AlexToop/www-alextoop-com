@@ -21,5 +21,12 @@ Current key = token
 From the directory of this readme, run the following to deploy this infrastructure:
 ```
 npm run build
-cdk deploy
+npx cdk deploy
 ```
+
+To destroy the infrastructure created by this run:
+```
+npx cdk destroy
+```
+
+NOTE: This will also add a webhook to the GitHub repo (accessible in the repo settings) that will NOT be cleared by cdk destroy.
