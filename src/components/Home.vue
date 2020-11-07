@@ -17,7 +17,7 @@
                     <div class="content">
                       <h2>Extract</h2>
                       <p>
-                          Junior Software Engineer working in BBC iPlayer and Sounds team Partner Experience. Working to automate the testing of new and existing connected TV devices. 
+                          Junior Software Engineer working in BBC iPlayer and Sounds team Partner Experience. Working to automate the testing of new and existing connected TV devices.
                           </br>
                           </br>
                           First Class Honours Software Engineering BEng.
