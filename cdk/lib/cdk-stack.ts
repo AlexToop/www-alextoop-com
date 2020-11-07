@@ -6,7 +6,7 @@ export class CdkStack extends cdk.Stack {
     super(scope, id, props);
 
     // The code that defines your stack goes here
-    const amplifyApp = new amplify.App(this, "cdkwwwalextoopcom", {
+    const amplifyApp = new amplify.App(this, "wwwalextoopcom", {
       sourceCodeProvider: new amplify.GitHubSourceCodeProvider({
         owner: 'AlexToop',
         repository: 'www-alextoop-com',
@@ -18,7 +18,7 @@ export class CdkStack extends cdk.Stack {
     
     const masterBranch = amplifyApp.addBranch("master");
 
-    const domain = amplifyApp.addDomain('wwwcdk.alextoop.com');
+    const domain = amplifyApp.addDomain('www.alextoop.com');
     domain.mapRoot(masterBranch);
     // domain.mapSubDomain(masterBranch, 'www');
   }
