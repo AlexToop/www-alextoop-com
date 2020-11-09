@@ -4,8 +4,7 @@ import * as amplify from "@aws-cdk/aws-amplify";
 export class CdkStack extends cdk.Stack {
   constructor(scope: cdk.Construct, id: string, props?: cdk.StackProps) {
     super(scope, id, props);
-
-    // The code that defines your stack goes here
+    
     const amplifyApp = new amplify.App(this, "wwwalextoopcom", {
       sourceCodeProvider: new amplify.GitHubSourceCodeProvider({
         owner: 'AlexToop',
