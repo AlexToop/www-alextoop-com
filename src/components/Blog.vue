@@ -7,13 +7,19 @@
         <div class="columns">
           <div class="column" />
           <div class="column is-three-quarters">
-            <div class="content">
-              <div class="notification is-success">
-                <!-- <button class="delete"></button> -->
-                Productivity minded? Try out: <a href="https://reminds.alextoop.com" target="_blank">https://reminds.alextoop.com</a>
+            <div class="columns">
+              <div class="column">
+                <div class="content">
+                    <h2>Hello</h2>
+                </div>
               </div>
-              <h2>Projects</h2>
-              <project v-for="project in data" :title="project.title" :date="project.date" :body="project.body" :imgUri="project.imgUri" :link="project.link"/>
+              <div class="column">
+                <div class="content">
+                    <h2>
+                        World!
+                    </h2>
+                </div>
+              </div>
             </div>
           </div>
           <div class="column" />
@@ -26,18 +32,16 @@
 <script>
 import 'bulma/css/bulma.min.css'
 import navbar from './Navbar.vue'
-import project from './Project.vue'
-import data from '../assets/js/data.model'
+import heroBanner from './HeroBanner.vue'
 
 export default {
   name: 'App',
   components: {
     'nav-bar': navbar,
-    project: project
+    'hero-banner': heroBanner
   },
   data: function () {
     return {
-      data: data.projects,
       navbarContents: {
         links: [
           {
@@ -49,14 +53,14 @@ export default {
           },
           {
             name: 'Blog',
-            class: '',
+            class: 'is-active',
             href: '/blog/',
             icon: 'fa-info-circle',
             iconColor: 'has-text-dark'
           },
           {
             name: 'Projects',
-            class: 'is-active',
+            class: '',
             href: '/projects/',
             icon: 'fa-info-circle',
             iconColor: 'has-text-dark'
