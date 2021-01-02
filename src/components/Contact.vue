@@ -9,7 +9,7 @@
           <div class="column is-three-quarters">
             <div class="notification is-info">
               <!-- <button class="delete"></button> -->
-              I prefer to be contacted through <a href="https://www.linkedin.com/in/alexandertoop/" target="_blank">LinkedIn</a> if possible, however, if not possible, I can be contacted through email.
+              I prefer to be contacted through <a href="https://www.linkedin.com/in/alexandertoop/" target="_blank">LinkedIn</a> when possible
             </div>
             <div class="columns">
               <div class="column">
@@ -88,7 +88,7 @@ export default {
         ],
         buttons: [
           {
-            text: 'NEW: Reminds Project',
+            text: 'Reminds Website',
             class: 'is-info',
             href: 'https://reminds.alextoop.com',
             isLogout: 'false'

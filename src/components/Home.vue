@@ -5,7 +5,7 @@
       :img-url="imgUrl"
     />
 
-        <hero-banner :title="'Alexander John Toop BEng'" :subtitle="'Software Engineer currently working across BBC TV iPlayer and Sounds'"/>
+        <hero-banner :title="'Alexander John Toop BEng'" :subtitle="'Software Engineer working on the BBC Sounds TV Application'"/>
 
     <section class="section">
       <div class="container has-padding-top">
@@ -17,12 +17,14 @@
                     <div class="content">
                       <h2>Extract</h2>
                       <p>
-                          Junior Software Engineer working in BBC iPlayer and Sounds team Partner Experience. Working to automate the testing of new and existing connected TV devices.
+                          Software Engineer working on BBC Sounds TV. Currently supporting the development of new features and the rollout to the connected TV estate. 
                           </br>
                           </br>
                           First Class Honours Software Engineering BEng.
                           </br>
                           </br>
+                            <!-- </br>
+                          Previously a member of TV Partner Expertience, working to automate the testing of new and existing connected TV devices. -->
                           Previous employment in BT's 'bt.com' personalised offers team developing an intelligent pre-sales system. Developed a Java backend alongside an Angular website interface for existing customers.
                       </p>
 
@@ -107,7 +109,7 @@ export default {
         ],
         buttons: [
           {
-            text: 'NEW: Reminds Project',
+            text: 'Reminds Website',
             class: 'is-info',
             href: 'https://reminds.alextoop.com',
             isLogout: 'false'
