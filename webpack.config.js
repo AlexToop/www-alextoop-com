@@ -30,6 +30,7 @@ module.exports = {
       { from: 'src/projects/index.html', to: '../projects' },
       { from: 'src/contact/index.html', to: '../contact' },
       { from: 'src/assets/img/*', to: '../img/', flatten: true },
+      { from: 'src/assets/markdown/*', to: '../markdown/', flatten: true },
       { from: 'src/assets/favicon/*', to: '../', flatten: true }
     ])
   ],

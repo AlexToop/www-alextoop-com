@@ -10,14 +10,7 @@
             <div class="columns">
               <div class="column">
                 <div class="content">
-                    <h2>Hello</h2>
-                </div>
-              </div>
-              <div class="column">
-                <div class="content">
-                    <h2>
-                        World!
-                    </h2>
+                    <span v-html="content"></span>
                 </div>
               </div>
             </div>
@@ -32,16 +25,25 @@
 <script>
 import 'bulma/css/bulma.min.css'
 import navbar from './Navbar.vue'
-import heroBanner from './HeroBanner.vue'
+import marked from 'marked'
 
 export default {
   name: 'App',
   components: {
-    'nav-bar': navbar,
-    'hero-banner': heroBanner
+    'nav-bar': navbar
+  },
+  mounted: function () {
+    const self = this
+    fetch('/markdown/connascence.md')
+      .then((response) => response.text().then(yourCallback));
+
+    function yourCallback(retrievedText) {
+      self.content = marked(retrievedText)
+    }
   },
   data: function () {
     return {
+      content: '',
       navbarContents: {
         links: [
           {
