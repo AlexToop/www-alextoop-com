@@ -2,7 +2,7 @@
 
 Alexander John Toop, 09 January 2021
 
-# Table of Contents
+## Table of Contents
 * [Introduction](#intro)
 * [Properties, the three axes](#axes)
 * [Types](#types)
