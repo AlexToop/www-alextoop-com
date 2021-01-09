@@ -20,13 +20,13 @@ It was theorised that decoupling of these relationships often leads to improving
 
 ## <a name="axes"></a>Properties, the three axes
 
-The impact on maintainability Meilir proposed could be further deduced by considering the following; 
+The three axes are three properties that can be considered to determine the maintainability of code; 
 
-**Degree** relates to the size of its impact, for example, being connascent to dozens of other elements will have a larger impact. 
+**Degree** relates to the size of its impact, being connascent to dozens of other elements will have a larger impact on maintainability. 
 
-**Locality** relates to how close software elements are together, similar to the philosophy of 'elements that change together should stay together', if the elements are escapsulated far apart, they should have a weaker connascence.
+**Locality** relates to how close elements are together, 'elements that change together, should stay together', ideally, if the elements are encapsulated far apart, they should have a weaker connascence.
 
-**Strength** relates to how hard the relations between entities are to spot or refactor. The types of relation are discussed in the next section.
+**Strength** relates to how hard the relationship between entities are to spot or refactor. The next section will explain the different types of relationship and how they affect the strength of connascence.
 
 ## <a name="types"></a>Types
 
@@ -38,25 +38,25 @@ The impact on maintainability Meilir proposed could be further deduced by consid
 
 **Timing**, when the timing of execution of components is important.
 
-**Execution order**, when the order of multiple components is important.
+**Execution order**, when the order of several components is important.
 
 ### <a name="static"></a>Static
 
-**Position**, agree on the order of values.
+**Position**, when they must agree on the order of values.
 
-**Algorithm**, agree on a particular algorithm to use.
+**Algorithm**, when they must agree on agree on a particular algorithm to use.
 
-**Meaning/Convention**, agree on the meaning of an identity.
+**Meaning/Convention**, when they must agree on agree on a common meaning of an identity.
 
-**Type**, agree the type of an entity.
+**Type**, when they must agree on the type of an entity.
 
-**Name**, agree the name of an entity.
+**Name**, when they must agree on the name of an entity.
 
 ### <a name="diagram"></a>Diagram
 
 ![Connascence](/img/connascence.svg)
 
-The higher the listed type, the stronger the connascence is. Reducing the strength of connascence is desirable as it often reduces the complexity when modifying or reusing these components in the future.
+The higher the listed type, the stronger the connascence is. Reducing the strength of connascence is desirable as it often reduces the difficulty when modifying or reusing these components in the future.
 
 ## <a name="summary"></a>Summary
 
