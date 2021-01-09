@@ -20,13 +20,13 @@ It was theorised that decoupling of these relationships often leads to improving
 
 ## <a name="axes"></a>Properties, the three axes
 
-The three axes are three properties that can be considered to determine the maintainability of code; 
+The three axes are properties that can be considered to help determine the maintainability of code; 
 
-**Degree** relates to the size of its impact, being connascent to dozens of other elements will have a larger impact on maintainability. 
+**Degree**, relates to the size of its impact, being connascent to dozens of other elements will have a larger impact on maintainability. 
 
-**Locality** relates to how close elements are together, 'elements that change together, should stay together', ideally, if the elements are encapsulated far apart, they should have a weaker connascence.
+**Locality**, relates to how close elements are together, 'elements that change together, should stay together'. If the elements are encapsulated far apart, ensuring they have weaker connascence helps ensure they can be modified more independently.
 
-**Strength** relates to how hard the relationship between entities are to spot or refactor. The next section will explain the different types of relationship and how they affect the strength of connascence.
+**Strength**, relates to how hard the relationship between entities are to spot or refactor. The types of connascence in the next section can be used to determine the strength of their relationship.
 
 ## <a name="types"></a>Types
 
