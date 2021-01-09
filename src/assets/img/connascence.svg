@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg width="100%" height="100%" viewBox="0 0 799 450" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve" xmlns:serif="http://www.serif.com/" style="fill-rule:evenodd;clip-rule:evenodd;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:1.5;">
+    <g id="Artboard1" transform="matrix(0.998111,0,0,0.75,0,0)">
+        <rect x="0" y="0" width="800" height="600" style="fill:none;"/>
+        <g transform="matrix(0.731934,0,0,0.974068,223.141,65.0728)">
+            <text x="75.676px" y="53.509px" style="font-family:'ArialMT', 'Arial', sans-serif;font-size:30px;">Identity</text>
+        </g>
+        <g transform="matrix(0.731934,0,0,0.974068,245.639,110.236)">
+            <text x="75.676px" y="53.509px" style="font-family:'ArialMT', 'Arial', sans-serif;font-size:30px;">V<tspan x="93.459px 110.143px " y="53.509px 53.509px ">al</tspan>ue</text>
+        </g>
+        <g transform="matrix(0.731934,0,0,0.974068,224.577,55.7019)">
+            <text x="132.737px" y="155.938px" style="font-family:'ArialMT', 'Arial', sans-serif;font-size:30px;">T<tspan x="149.949px 156.614px " y="155.938px 155.938px ">im</tspan>ing</text>
+        </g>
+        <g transform="matrix(0.731934,0,0,0.974068,220.25,69.105)">
+            <text x="167.412px" y="190.2px" style="font-family:'ArialMT', 'Arial', sans-serif;font-size:30px;">Execution order</text>
+        </g>
+        <g transform="matrix(0.731934,0,0,0.974068,221.501,108.971)">
+            <text x="202.442px" y="260.408px" style="font-family:'ArialMT', 'Arial', sans-serif;font-size:30px;">Position</text>
+        </g>
+        <g transform="matrix(0.731934,0,0,0.974068,218.703,114.787)">
+            <text x="239.107px" y="298.654px" style="font-family:'ArialMT', 'Arial', sans-serif;font-size:30px;">Algorithm</text>
+        </g>
+        <g transform="matrix(0.731934,0,0,0.974068,221.685,117.447)">
+            <text x="270.245px" y="344.809px" style="font-family:'ArialMT', 'Arial', sans-serif;font-size:30px;">Meaning/Convention</text>
+        </g>
+        <g transform="matrix(0.731934,0,0,0.974068,216.929,117.229)">
+            <text x="312.429px" y="395.053px" style="font-family:'ArialMT', 'Arial', sans-serif;font-size:30px;">T<tspan x="329.099px 344.099px " y="395.053px 395.053px ">yp</tspan>e</text>
+        </g>
+        <g transform="matrix(0.731934,0,0,0.974068,215.961,110.382)">
+            <text x="345.004px" y="451.551px" style="font-family:'ArialMT', 'Arial', sans-serif;font-size:30px;">Name</text>
+        </g>
+        <g transform="matrix(5.52234e-17,1.19464,-0.731934,6.0063e-17,288.347,-323.909)">
+            <path d="M311.316,104.114L311.316,83.108L710.119,83.108L710.119,63.602L734.587,93.611L710.119,123.619L710.119,104.114L311.316,104.114Z" style="stroke:black;stroke-width:1.22px;"/>
+        </g>
+        <g transform="matrix(0.731934,0,0,0.974068,131.556,-8.32723)">
+            <text x="348.816px" y="82.223px" style="font-family:'Arial-BoldMT', 'Arial', sans-serif;font-weight:700;font-size:30px;">Dynamic</text>
+        </g>
+        <g transform="matrix(0.731934,0,0,0.974068,141.567,-6.3791)">
+            <text x="357.36px" y="324.941px" style="font-family:'Arial-BoldMT', 'Arial', sans-serif;font-weight:700;font-size:30px;">Static</text>
+        </g>
+        <g transform="matrix(4.31699e-17,-0.974068,0.731934,5.74511e-17,64.9849,923.721)">
+            <text x="507.768px" y="174.11px" style="font-family:'ArialMT', 'Arial', sans-serif;font-size:30px;">Decreasing strength</text>
+        </g>
+    </g>
+</svg>
