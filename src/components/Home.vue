@@ -93,6 +93,13 @@ export default {
             iconColor: 'has-text-primary'
           },
           {
+            name: 'Blog',
+            class: '',
+            href: '/blog/',
+            icon: 'fa-info-circle',
+            iconColor: 'has-text-dark'
+          },
+          {
             name: 'Projects',
             class: '',
             href: '/projects/',
