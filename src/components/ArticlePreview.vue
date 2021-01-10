@@ -5,12 +5,11 @@
           <div class="media-content">
             <div class="content">
               <p>
-                <strong>{{title}}</strong> <small>date:</small> <small>{{date}}</small>
+                <strong><nuxt-link :to="link">{{title}}</nuxt-link></strong> <small>date:</small> <small>{{date}}</small>
                 <br>
                 {{body}}
               </p>
             </div>
-            <small><nuxt-link :to="link">Read more</nuxt-link></small>
           </div>
         </article>
       </div>

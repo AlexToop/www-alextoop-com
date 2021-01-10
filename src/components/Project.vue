@@ -15,7 +15,7 @@
                 {{body}}
               </p>
             </div>
-            <small><a :href="link" target="_none">GitHub</a> · <a :href="link + '/issues'" target="_none">Issues</a></small>
+            <small><a :href="link" target="_none" rel="noopener">GitHub</a> · <a :href="link + '/issues'" target="_none" rel="noopener">Issues</a></small>
           </div>
         </article>
       </div>

@@ -2,7 +2,7 @@
   <div>
     <div class="notification is-info">
       <!-- <button class="delete"></button> -->
-      I prefer to be contacted through <a href="https://www.linkedin.com/in/alexandertoop/" target="_blank">LinkedIn</a> when possible
+      I prefer to be contacted through <a href="https://www.linkedin.com/in/alexandertoop/" target="_blank" rel="noopener">LinkedIn</a> when possible
     </div>
     <div class="columns">
       <div class="column">

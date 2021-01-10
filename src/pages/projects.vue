@@ -1,7 +1,6 @@
 <template lang="html">
   <div class="content">
-    <div class="notification is-success">
-      <!-- <button class="delete"></button> -->
+    <div class="notification is-warning">
       Productivity minded? Try out: <a href="https://reminds.alextoop.com" target="_blank">https://reminds.alextoop.com</a>
     </div>
     <h2>Projects</h2>
