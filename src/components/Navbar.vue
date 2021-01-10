@@ -9,7 +9,7 @@
         <div class="navbar-brand">
           <a class="navbar-item" href="/">
           <div class="image is-32x32">
-            <img src="/img/logo.png" class="is-rounded" alt="Reminds, a place to let tech do the remembering!">
+            <img src="/img/logo.jpg" class="is-rounded" alt="Reminds, a place to let tech do the remembering!">
           </div>
             <p class="has-padding-left"><b>Alex Toop</b></p>
           </a>
@@ -46,6 +46,7 @@
                   v-for="button in navbarContents.buttons"
                   class="button"
                   target="_blank"
+                  rel="noopener"
                   :class="button.class"
                   :href="button.href"
                 ><strong>{{ button.text }}</strong></a>
