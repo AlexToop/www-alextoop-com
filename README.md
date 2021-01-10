@@ -36,3 +36,12 @@ npm run dev
 # generate static project
 $ npm run generate
 ```
+
+## Adding a new blog post
+This process is currently being refined but this is the current:
+
+1. Write the article in markdown `src/static/markdown/`
+
+2. Add an entry in the `src/assets/articles.model.js`
+
+2. Copy and add another blog page in `src/pages/blogs/`

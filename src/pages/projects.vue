@@ -11,7 +11,7 @@
 
 <script>
 import project from '../components/Project.vue'
-import data from '../assets/data.model.js'
+import data from '../assets/projects.model.js'
 
 export default {
   name: 'App',

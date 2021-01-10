@@ -2,13 +2,14 @@
   <div>
     <nav-bar :navbar-contents="navbarContents"></nav-bar>
 
-    <!-- <hero-banner :title="'Alexander John Toop BEng'" :subtitle="'Software Engineer working on the BBC Sounds TV Application'"/> -->
-
     <section class="section">
       <div class="container">
           <div class="columns">
               <div class="column"></div>
               <div class="column is-three-quarters">
+                <NuxtLink :to="'/blog/'">⬅️ Back to posts</NuxtLink>
+                <br>
+                <br>
                 <Nuxt />
               </div>
               <div class="column"></div>
@@ -20,10 +21,12 @@
 
 <script>
 import navbar from '../components/Navbar'
+import heroBanner from '../components/HeroBanner.vue'
 
 export default {
   components: {
-    'nav-bar': navbar
+    'nav-bar': navbar,
+    'hero-banner': heroBanner
   },
   data: function () {
     return {
