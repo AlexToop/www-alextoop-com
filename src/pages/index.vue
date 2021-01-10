@@ -5,15 +5,13 @@
     <div class="content">
       <h2>Extract</h2>
       <p>
-          Software Engineer working on BBC Sounds TV. Currently supporting the development of new features and the rollout to the connected TV estate. 
+          Software Engineer working on BBC Sounds TV. Currently supporting the development of new features and the rollout to our connected TV estate. 
           </br>
           </br>
           First Class Honours Software Engineering BEng.
           </br>
           </br>
-            <!-- </br>
-          Previously a member of TV Partner Expertience, working to automate the testing of new and existing connected TV devices. -->
-          Previous employment in BT's 'bt.com' personalised offers team developing an intelligent pre-sales system. Developed a Java backend alongside an Angular website interface for existing customers.
+          Ex-member of BBC TV Partner Expertience, working to automate the testing of new and existing connected TV devices. Ex-member of BT's personalised offers team developing an intelligent pre-sales system.
       </p>
 
       <h2>GitHub</h2>
@@ -32,10 +30,10 @@
 
       <h2>History</h2>
       <ul>
-          <li>Achieved grades BBBD in Computing, Mathematics, General Studies and Physics at A-Level.</li>
-          <li>First Class Honours Software Engineering BEng at Aberystwyth University.</li>
+          <li>BBC iPlayer and Sounds connected TV development. JavaScript and AWS DevOps.</li>
           <li>BT TSO (Technology, Services and Operations) Software Development. Java and Angular.</li>
-          <li>BBC iPlayer and Sounds connected TV automated testing tool development. JavaScript, AWS Serverless DevOps.</li>
+          <li>First Class Honours Software Engineering BEng at Aberystwyth University.</li>
+          <li>Achieved grades BBBD in Computing, Mathematics, General Studies and Physics at A-Level.</li>
       </ul>
 
       <h2>Hobbies</h2>

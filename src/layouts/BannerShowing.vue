@@ -2,7 +2,7 @@
   <div>
     <nav-bar :navbar-contents="navbarContents"></nav-bar>
 
-    <hero-banner :title="'Alexander John Toop BEng'" :subtitle="'Software Engineer working on the BBC Sounds TV Application'"/>
+    <hero-banner :title="'Alexander John Toop BEng'" :subtitle="'Software Engineer working on BBC Sounds TV'"/>
 
     <section class="section">
       <div class="container has-padding-top">
