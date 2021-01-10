@@ -7,16 +7,10 @@
     >
       <div class="container">
         <div class="navbar-brand">
-          <a
-            class="navbar-item"
-            href="/"
-          >
+          <a class="navbar-item" href="/">
           <div class="image is-32x32">
             <img src="/img/logo.png" class="is-rounded" alt="Reminds, a place to let tech do the remembering!">
           </div>
-            <!-- <span class="icon is-large has-text-danger">
-                <img src="/img/logo.png" class="is-rounded" alt="Reminds, a place to let tech do the remembering!">
-            </span> -->
             <p class="has-padding-left"><b>Alex Toop</b></p>
           </a>
 
@@ -26,26 +20,23 @@
             aria-label="menu"
             aria-expanded="false"
             data-target="navbarBasicExample"
-          >
+            @click="toggleMenu">
             <span aria-hidden="true" />
             <span aria-hidden="true" />
             <span aria-hidden="true" />
           </a>
         </div>
 
-        <div
-          id="navbarBasicExample"
-          class="navbar-menu"
-        >
+        <div class="navbar-menu">
           <div class="navbar-start">
-            <a
+            <nuxt-link
               v-for="link in navbarContents.links"
               class="navbar-item"
-              :href="link.href || '#'"
-              :class="link.class"
-            >
+              @click.native="toggleMenu"
+              :key="link.name"
+              :to="link.href || '#'">
               {{ link.name }}
-            </a>
+            </nuxt-link>
           </div>
 
           <div class="navbar-end">
@@ -75,7 +66,6 @@
 </template>
 
 <script>
-import $ from 'jquery/dist/jquery.slim'
 
 export default {
   name: 'Navbar',
@@ -91,21 +81,32 @@ export default {
       document.addEventListener('logoutModalPositive', this.logout)
     })
   },
-  methods: {}
+  methods: {
+    toggleMenu: function () {
+      document.querySelector('.navbar-burger').classList.toggle('is-active')
+      document.querySelector('.navbar-menu').classList.toggle('is-active')
+    }
+  }
 }
-
-$(document).ready(function () {
-  $('.navbar-burger').click(function () {
-    $('.navbar-burger').toggleClass('is-active')
-    $('.navbar-menu').toggleClass('is-active')
-  })
-})
 </script>
 
 <style scoped>
+
 a.navbar-item > .icon {
   margin-left: -0.25em;
   margin-right: 0.25em;
+}
+
+.nuxt-link-exact-active {
+  color: #0a0a0a !important;
+}
+
+a:hover {
+  color: #4a4a4a;
+}
+
+.nuxt-link-exact-active:not(:hover) {
+  background-color: transparent;
 }
 
 .custom-hamburger {
