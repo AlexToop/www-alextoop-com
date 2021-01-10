@@ -27,5 +27,12 @@ npm ci
 ## Running
 Run the following from the root directory:
 ```
-npm run start
+npm run dev
+```
+
+## Building
+
+```bash
+# generate static project
+$ npm run generate
 ```
