@@ -4,7 +4,7 @@
       These only reflect my personal experience and research, they do not relate to the opinions of my employer
     </div>
 
-    <h2>Blog posts</h2>
+    <h2>Blog Posts</h2>
     <article-preview v-for="blog in data" :title="blog.title" :date="blog.date" :body="blog.body" :link="blog.link" :key="blog.title"></article-preview>
   </div>         
 </template>

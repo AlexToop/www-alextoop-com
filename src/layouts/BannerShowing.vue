@@ -5,7 +5,7 @@
     <hero-banner :title="'Alexander John Toop BEng'" :subtitle="'Software Engineer working on BBC Sounds TV'"/>
 
     <section class="section">
-      <div class="container has-padding-top">
+      <div class="container">
           <div class="columns">
               <div class="column"></div>
               <div class="column is-three-quarters">

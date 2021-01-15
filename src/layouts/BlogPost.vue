@@ -7,7 +7,7 @@
           <div class="columns">
               <div class="column"></div>
               <div class="column is-three-quarters">
-                <NuxtLink :to="'/blog/'">⬅️ Back to posts</NuxtLink>
+                <NuxtLink :to="'/blog/'">See more blog posts</NuxtLink>
                 <br>
                 <br>
                 <Nuxt />
