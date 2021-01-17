@@ -8,10 +8,12 @@
       <div class="column">
         <div class="content">
 
-        <h2>Email</h2>
+        <h2>Details</h2>
         <p>
-            <a href="mailto:alextoop@protonmail.com?subject=Enquiry">
-            alextoop@protonmail.com</a>
+            Please contact me through <a href="https://www.linkedin.com/in/alexandertoop/" target="_blank">LinkedIn</a>. 
+            </br>
+            </br>
+            I cannot guarantee a response to all queries.
         </p>
 
         <h2>GitHub</h2>
