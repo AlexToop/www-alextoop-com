@@ -19,11 +19,11 @@ export default {
     'article-preview': articlePreview
   },
   head: {
-    title: `Blog - Alexander ('Alex') Toop, Software Engineering Portfolio`,
+    title: `Blog posts - Alexander ('Alex') Toop`,
     meta: [
       {
         name: 'Blog',
-        content: 'Blog posts about software engineering and software design practises.'
+        content: 'Blog posts about software engineering and software design practises. These posts relate to my personal experience and research.'
       }
     ],
   },

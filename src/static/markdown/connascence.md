@@ -2,21 +2,20 @@
 
 Alexander John Toop, 09 January 2021
 
-## Table of Contents
-* [Introduction](#intro)
-* [Properties, the three axes](#axes)
-* [Types](#types)
-  * [Dynamic](#dynamic)
-  * [Static](#static)
-  * [Diagram](#diagram)
-* [Summary](#summary)
-* [Citations](#citations)
-
 ## <a name="intro"></a>Introduction
 
 Connascence is a metric proposed by Meilir Page-Jones for measuring the complexity caused by the relationships of components in object orientated design [1]. 
 
 It was theorised that decoupling of these relationships often leads to improving the quality of the software, as it often reduces the cost of modifying each component in isolation.
+
+## Table of Contents
+* [Properties, the three axes](#axes)
+* [Types](#types)
+  * [Diagram](#diagram)
+  * [Dynamic](#dynamic)
+  * [Static](#static)
+* [Summary](#summary)
+* [Citations](#citations)
 
 ## <a name="axes"></a>Properties, the three axes
 
@@ -29,6 +28,12 @@ The three axes are properties that can be considered to help determine the maint
 **Strength**, relates to how hard the relationship between entities are to spot or refactor. The types of connascence in the next section can be used to determine the strength of their relationship.
 
 ## <a name="types"></a>Types
+
+### <a name="diagram"></a>Diagram
+
+![Connascence types diagram, Alexander Toop](/img/connascence.svg)
+
+The higher the listed type, the stronger the connascence is. Reducing the strength of connascence is desirable as it often reduces the difficulty when modifying or reusing these components in the future. Below explains how to identify the type of connascence. 
 
 ### <a name="dynamic"></a>Dynamic
 
@@ -51,12 +56,6 @@ The three axes are properties that can be considered to help determine the maint
 **Type**, when they must agree on the type of an entity.
 
 **Name**, when they must agree on the name of an entity.
-
-### <a name="diagram"></a>Diagram
-
-![Connascence](/img/connascence.svg)
-
-The higher the listed type, the stronger the connascence is. Reducing the strength of connascence is desirable as it often reduces the difficulty when modifying or reusing these components in the future.
 
 ## <a name="summary"></a>Summary
 

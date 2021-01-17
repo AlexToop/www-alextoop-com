@@ -10,11 +10,11 @@ import marked from 'marked'
 export default {
   name: 'App',
   head: {
-    title: `Connascence - Alexander ('Alex') Toop, Software Engineering Portfolio`,
+    title: 'Connascence and software design - Alexander Toop',
     meta: [
       {
         name: 'Connascence',
-        content: 'Connascence. Software Engineering portfolio website. Alexander Toop, previously employed by BT and studied at Aberystwyth University.'
+        content: 'Connascence and software design. Software Engineering portfolio website. Alexander Toop, previously employed by BT and studied at Aberystwyth University.'
       }
     ],
   },
