@@ -8,7 +8,7 @@ Software development is often a complicated affair and the practises established
 
 Some agile practises may focus on sprint related practises, others, a more Kanban continuous feed of work. These practises aim, in part, to reduce the feedback loop between an idea coming in and the feature being released to the intended audience.
 
-A cadence of change is your teams ability to go from desired to a released feature. This reflects well when changing requirements or bugs are triaged and found for your team to fix. Different products will often require different cadence of change, some needing to react quickly and others having more freedom for long term planning of features. 
+A cadence of change is your teams ability to go from a desired to a released feature. This reflects well when changing requirements or bugs are triaged and found for your team to fix. Different products will often require different cadence of change, some needing to react quickly and others having more freedom for long term planning of features. 
 
 ## Table of Contents
 * [Context matters](#context)
@@ -17,7 +17,7 @@ A cadence of change is your teams ability to go from desired to a released featu
 
 ## <a name="context"></a>Context matters
 
-Often forgotten in teams, your stage in the products lifecycle does matter. If your product has been released and you are iterating on that, makes a difference as you will likely require some capacity to triage and tackle live issues. However, if you are working on a product yet to be released, you have have more ability to focus on goals with less flexibility required. The caveat of needing less flexibility being, it is still encourage to provide frequent valuable releases rather than getting deeply invested in features that have yet to provide value to your end goal.
+Often forgotten, the stage in the products lifecycle does matter. If your product has been released and you are iterating on that, it makes a difference as you will likely require some capacity to triage and tackle live issues. However, if you are working on a product yet to be released, you have have more ability to focus on goals with less flexibility required. The caveat of needing less flexibility being, it is still encourage to provide frequent valuable releases rather than getting deeply invested in features that have yet to provide value to your end goal.
 
 ## <a name="whynotsmall"></a>Is a smaller cadence best?
 
